@@ -25,7 +25,7 @@ var total = 0;
 // }
 
 groceries.forEach(function(item){
-	console.log(item.name + " - " + item.price);
+	console.log(item.name + " - $" + item.price);
 	total += item.price;
 });
 
